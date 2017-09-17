@@ -1,0 +1,56 @@
+header {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+}
+
+.navbar {
+  transition: 0.5s ease;
+
+  &_nav {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+
+    .item {
+      list-style: none;
+      display: inline-block;
+      padding: 5px;
+      margin-right: 20px;
+      transition: 0.5s ease;
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      img {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+
+  &_logo {
+    height: 80px;
+    float: left;
+    margin-left: 5%;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-left: 6%;
+      font-family: "Comfortaa", cursive;
+      color: #ffffff;
+      line-height: 1.5;
+      font-size: 1.3rem;
+    }
+  }
+}

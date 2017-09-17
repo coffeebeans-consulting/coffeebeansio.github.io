@@ -1,0 +1,43 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans);
+html {
+  background: #ffffff; }
+
+body {
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin: 0; }
+
+#header {
+  position: relative; }
+
+.brand {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .brand :first-child {
+    display: flex;
+    align-items: center; }
+  .brand_txt {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; }
+    .brand_txt .baseline {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline; }
+    .brand_txt h1 {
+      font-family: "Comfortaa", cursive;
+      margin: 0;
+      line-height: 1.2;
+      font-size: 2.2rem; }
+    .brand_txt p {
+      font-family: "Open Sans", sans-serif; }
+  .brand_logo {
+    justify-content: center;
+    align-items: center; }
+
+/*# sourceMappingURL=index.css.map */

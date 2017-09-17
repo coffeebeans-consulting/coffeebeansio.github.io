@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,MAAO;EACL,QAAQ,EAAE,QAAQ;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,GAAG,EAAE,CAAC;EACN,KAAK,EAAE,CAAC;EACR,IAAI,EAAE,CAAC;EACP,MAAM,EAAE,CAAC",
+"sources": ["canvas-waves.scss"],
+"names": [],
+"file": "canvas-waves.css"
+}
