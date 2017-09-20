@@ -1,0 +1,16 @@
+.about {
+  height: 100vh; }
+
+.about_content > * {
+  margin-top: 60px; }
+
+.how_content > * {
+  margin-top: 40px; }
+
+.about_icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=index.css.map */

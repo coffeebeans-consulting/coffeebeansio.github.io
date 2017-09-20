@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>gamification</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="gamification">
+            <rect id="Rectangle-3" stroke-opacity="0.752943841" stroke="#8A83AC" x="0.5" y="0.5" width="49" height="49" rx="4"></rect>
+            <g id="game-controller" transform="translate(5.000000, 7.000000)">
+                <path d="M31.6275862,36.8965517 C30.7165517,36.9117241 27.8158621,35.5627586 25.1158621,34.8282759 C21.96,33.9696552 18.04,33.9731034 14.8834483,34.8282759 C12.1627586,35.5655172 9.6262069,36.9124138 8.37172414,36.8965517 C3.59448276,36.8358621 0,32.0903448 0,27.2365517 L0,27.2365517 C0,21.9234483 4.52206897,17.1386207 9.89448276,16.8972414 L30.3593103,16.8972414 C35.7317241,17.1386207 40,21.9241379 40,27.2365517 L40,27.2365517 C40,32.0903448 36.4048276,36.8165517 31.6275862,36.8965517 Z" id="Shape" fill-opacity="0.752943841" fill="#8A83AC" fill-rule="nonzero"></path>
+                <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="12.4137931 25.1724138 10.3448276 25.1724138 10.3448276 23.1034483 6.89655172 23.1034483 6.89655172 25.1724138 4.82758621 25.1724138 4.82758621 28.6206897 6.89655172 28.6206897 6.89655172 30.6896552 10.3448276 30.6896552 10.3448276 28.6206897 12.4137931 28.6206897"></polygon>
+                <path d="M19.3103448,30 L17.9310345,31.3793103" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M22.0689655,30 L20.6896552,31.3793103" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M19.3103448,16.8965517 L19.3103448,4.13793103 C19.3103448,2.43103448 20.7068966,1.03448276 22.4137931,1.03448276 L22.4137931,1.03448276 C24.1206897,1.03448276 25.5172414,2.43103448 25.5172414,4.13793103 L25.5172414,5.86206897 C25.5172414,7.37931034 26.7586207,8.62068966 28.2758621,8.62068966 L28.2758621,8.62068966 C29.7931034,8.62068966 31.0344828,7.37931034 31.0344828,5.86206897 L31.0344828,0.344827586" id="Shape" stroke="#9B9B9B"></path>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="30" cy="23.4482759" r="1.72413793"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="35.5172414" cy="25.5172414" r="1.72413793"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="25.862069" cy="26.8965517" r="1.72413793"></circle>
+                <circle id="Oval" fill="#FFFFFF" fill-rule="nonzero" cx="31.3793103" cy="28.9655172" r="1.72413793"></circle>
+                <path d="M15.862069,20.3455172 L24.137931,20.3455172" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

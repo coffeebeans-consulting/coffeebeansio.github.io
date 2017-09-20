@@ -1,8 +1,16 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400|Lobster+Two|Raleway:300,400);
 
 // fonts
 $font-family: 'Comfortaa', cursive;
 $font-family-serif: 'Open Sans', sans-serif;
+$font-family-lobster: 'Lobster Two', cursive;
+$font-family-raleway: 'Raleway', sans-serif;
+
+// color
+$grey: #565656;
+$dark-grey: #333333;
+$black: #000000;
+$light-purple: #8A83AC;
 
 html {
   background: #ffffff;
@@ -20,8 +28,8 @@ body {
 }
 
 .brand {
-  position: absolute;
-  height: 100%;
+  position: relative;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,5 +66,20 @@ body {
   &_logo {
     justify-content: center;
     align-items: center;
+  }
+}
+
+.clients {
+  height: 100vh;
+
+  &_column {
+    float: left;
+    width: 50%;
+    height: 100%;
+
+    &_left {
+      height: 100%;
+      background-color: #F2F5FA;
+    }
   }
 }

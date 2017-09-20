@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400|Lobster+Two|Raleway:300,400);
 html {
   background: #ffffff; }
 
@@ -12,8 +12,8 @@ body {
   position: relative; }
 
 .brand {
-  position: absolute;
-  height: 100%;
+  position: relative;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -39,5 +39,15 @@ body {
   .brand_logo {
     justify-content: center;
     align-items: center; }
+
+.clients {
+  height: 100vh; }
+  .clients_column {
+    float: left;
+    width: 50%;
+    height: 100%; }
+    .clients_column_left {
+      height: 100%;
+      background-color: #F2F5FA; }
 
 /*# sourceMappingURL=index.css.map */
