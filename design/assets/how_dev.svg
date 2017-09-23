@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M50,43 C48.8954305,43 48,42.1045695 48,41 C48,39.8954305 48.8954305,39 50,39 C51.1045695,39 52,39.8954305 52,41 C52,42.1045695 51.1045695,43 50,43 Z M60,60 C60,58.8954305 60.8954305,58 62,58 C63.1045695,58 64,58.8954305 64,60 C64,61.1045695 63.1045695,62 62,62 C60.8954305,62 60,61.1045695 60,60 Z M41,60 C41,61.1045695 40.1045695,62 39,62 C37.8954305,62 37,61.1045695 37,60 C37,58.8954305 37.8954305,58 39,58 C40.1045695,58 41,58.8954305 41,60 Z" id="path-1"></path>
+        <filter x="-25.9%" y="-21.7%" width="151.9%" height="160.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.288655698   0 0 0 0 0.56455189   0 0 0 0 0.886238694  0 0 0 0.497622283 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy">
+            <circle id="Oval-Copy" fill="#DDDDDD" cx="50" cy="50" r="30"></circle>
+            <g id="Oval">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#4990E2" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(44.120975, 49.717217) rotate(-60.000000) translate(-44.120975, -49.717217) " x="36.6209753" y="48.7172168" width="15" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" transform="translate(56.120975, 49.717217) scale(-1, 1) rotate(-60.000000) translate(-56.120975, -49.717217) " x="48.6209753" y="48.7172168" width="15" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(50.500000, 60.000000) scale(-1, 1) translate(-50.500000, -60.000000) " x="43" y="59" width="15" height="2" rx="1"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M52,23 C49.2385763,23 47,20.7614237 47,18 C47,15.2385763 49.2385763,13 52,13 C54.7614237,13 57,15.2385763 57,18 C57,20.7614237 54.7614237,23 52,23 Z M72.2643837,64.9056123 C74.6195378,62.1963174 78.7250848,61.9092296 81.4343796,64.2643837 C84.1436745,66.6195378 84.4307623,70.7250848 82.0756082,73.4343796 C79.7204542,76.1436745 75.6149071,76.4307623 72.9056123,74.0756082 C70.1963174,71.7204542 69.9092296,67.6149071 72.2643837,64.9056123 Z M26.3264728,66.6446237 C26.6888042,67.0614383 26.6446368,67.6930609 26.2278222,68.0553923 C25.8110076,68.4177237 25.179385,68.3735564 24.8170536,67.9567418 C24.4547222,67.5399272 24.4988896,66.9083046 24.9157042,66.5459732 C25.3325188,66.1836418 25.9641414,66.2278091 26.3264728,66.6446237 Z" id="path-1"></path>
+        <filter x="-16.9%" y="-12.8%" width="140.6%" height="138.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.290196078   0 0 0 0 0.564705882   0 0 0 0 0.88627451  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2">
+            <circle id="Oval" fill="#DDDDDD" cx="50" cy="50" r="30"></circle>
+            <g id="Oval-2">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#7DB9FF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#4990E2" stroke-width="1" d="M52,23.5 C55.0375661,23.5 57.5,21.0375661 57.5,18 C57.5,14.9624339 55.0375661,12.5 52,12.5 C48.9624339,12.5 46.5,14.9624339 46.5,18 C46.5,21.0375661 48.9624339,23.5 52,23.5 Z M71.8870289,64.5775828 C69.3507091,67.4952849 69.6598806,71.9166432 72.5775828,74.452963 C75.4952849,76.9892828 79.9166432,76.6801113 82.452963,73.7624092 C84.9892828,70.844707 84.6801113,66.4233487 81.7624092,63.8870289 C78.844707,61.3507091 74.4233487,61.6598806 71.8870289,64.5775828 Z M26.7038276,66.3165942 C26.1603305,65.6913723 25.2128965,65.6251213 24.5876747,66.1686184 C23.9624528,66.7121155 23.8962017,67.6595494 24.4396988,68.2847713 C24.9831959,68.9099932 25.9306299,68.9762442 26.5558517,68.4327471 C27.1810736,67.88925 27.2473247,66.9418161 26.7038276,66.3165942 L26.7038276,66.3165942 Z"></path>
+            </g>
+            <circle id="Oval-Copy" fill="#BBBBBB" cx="50" cy="50" r="10"></circle>
+        </g>
+    </g>
+</svg>

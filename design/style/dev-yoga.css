@@ -1,0 +1,356 @@
+.avatar{
+    width:200px;
+    margin:0 auto;
+}
+#sobrancelhas{
+    transform: translateY(-9px);
+    animation: sobrancelhas 5s linear infinite;
+
+}
+
+@keyframes sobrancelhas {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+
+#nariz{
+    transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+
+    animation: nariz 5s linear infinite;
+
+}
+
+@keyframes nariz {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+
+#boca{
+    transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    -moz-transform: translateY(-5px);
+
+    animation: boca 5s linear infinite;
+
+}
+@keyframes boca {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+#olhos{
+    transform: translateX(-2px);
+    -moz-transform: translateX(-2px);
+    -ms-transform: translateX(-2px);
+
+    animation: olhos 2s linear infinite;
+}
+
+@keyframes olhos {
+    0%   {
+        transform: translateX(-2);
+        -ms-transform: translateX(-2);
+        -moz-transform: translateX(-2);
+
+    }
+    25%  {
+        transform: translateX(2px);
+        -moz-transform: translateX(2px);
+        -ms-transform: translateX(2px);
+
+    }
+    75%  {
+        transform: translateX(-2px);
+        -ms-transform: translateX(-2px);
+        -moz-transform: translateX(-2px);
+
+    }
+    100% {
+        transform: translateX(2);
+        -ms-transform: translateX(2);
+        -moz-transform: translateX(2);
+
+    }
+}
+#notebook{
+    transform: translateY(-4px);
+    -moz-transform: translateY(-4px);
+    -ms-transform: translateY(-4px);
+
+    animation: notebook 6s linear infinite;
+}
+
+@keyframes notebook {
+    0%   {transform: translateY(-4)}
+    25%  {transform: translateY(0px)}
+    75%  {transform: translateY(0px)}
+    100% {transform: translateY(4)}
+}
+
+#pernas{
+    transform: translateY(-9px);
+    animation: pernas 6s infinite;
+}
+
+@keyframes pernas{
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+#pe{
+
+    animation: pe 6s infinite;
+}
+
+@keyframes pe {
+    0%   {
+        transform: rotateX(2deg);
+        -ms-transform: rotateX(2deg);
+        -moz-transform: rotateX(2deg);
+    }
+    25%  {}
+    75%  {}
+    100% {}
+}
+
+#camisas{
+    transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+
+    animation: camisas 6s infinite;
+}
+
+@keyframes camisas {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+
+#camisacostas{
+    transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+
+    animation: camisacostas 6s infinite;
+}
+
+@keyframes camisacostas {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+
+#cabeca{
+    transform: translateY(-9px);
+    -ms-transform: translateY(-9px);
+    -moz-transform: translateY(-9px);
+
+    animation: cabeca 6s infinite;
+}
+
+@keyframes cabeca {
+    0%   {transform: translateY(-8)}
+    25%  {transform: translateY(0px)}
+    75%  {transform: translateY(0px)}
+    100% {transform: translateY(8)}
+}
+
+#macae{
+    opacity: 1;
+
+    animation: macae 2s linear;
+}
+
+@keyframes macae {
+    0%   {opacity: 0.2;}
+    25%  {}
+    75%  {}
+    100% {}
+}
+
+#luzmacae{
+    animation: luzmacae 5s;
+}
+
+@keyframes luzmacae {
+    0%   {opacity: 0.2;}
+    25%  {opacity: 1;}
+    75%  {opacity: 1;}
+    100% {opacity: 0.2;}
+}
+
+#orelhas{
+    animation: orelhas 6s linear infinite;
+}
+
+@keyframes orelhas {
+    0%   {
+        transform: translateY(-10);
+        -ms-transform: translateY(-10);
+        -moz-transform: translateY(-10);
+
+    }
+    25%  {
+        transform: translateY(0px);
+        -ms-transform: translateY(0px);
+        -moz-transform: translateY(0px);
+
+    }
+    75%  {
+        transform: translateY(0px);
+        -moz-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10);
+        -moz-transform: translateY(10);
+        -ms-transform: translateY(10)
+
+    }
+}
+#sombras{
+    animation: sombras 6.1s linear infinite;
+}
+
+@keyframes sombras {
+    0%   { transform: scale(0.96);}
+    25%  {transform: scale(1);}
+    75%  {transform: scale(1);}
+    100% {transform: scale(0.96);}
+}
+
+.aviso{
+    background:#fff;
+    color:#0083ca;
+    text-align:center;
+    padding:2px;
+    position:fixed;
+    right:0px;
+    bottom:0px;
+    font-size:9px;
+}
