@@ -1,0 +1,18 @@
+.client_header {
+  margin: 40px 40px 0px 40px; }
+
+.client {
+  height: 100%;
+  padding: 50px; }
+  .client_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+    .client_item img {
+      max-width: 200px;
+      max-height: 200px; }
+    .client_item p {
+      margin: 50px; }
+
+/*# sourceMappingURL=client.css.map */

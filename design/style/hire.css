@@ -1,0 +1,15 @@
+.hire {
+  background: url(../assets/hire_bg.svg);
+  background-repeat: no-repeat;
+  background-position: center bottom; }
+  .hire_header {
+    font-size: 36px;
+    font-weight: 600; }
+  .hire_secondary {
+    font-size: 14px;
+    font-weight: 300;
+    color: #ccc; }
+  .hire_primary {
+    font-weight: 400; }
+
+/*# sourceMappingURL=hire.css.map */

@@ -1,12 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600|Playball);
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.content {
+  color: #666666;
+  span {
+    font-weight: 600;
+    color: #444444;
+  }
+}
+
 .about {
   height: 100vh;
 }
 
-.about_content>* {
+.about_content > * {
   margin-top: 60px;
 }
 
-.how_content>* {
+.how_content > * {
   margin-top: 40px;
 }
 
@@ -18,9 +34,45 @@
   }
 }
 
+.title {
+  font-family: 'Playball', cursive;
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 0;
+}
+
+.line {
+  height: 2px;
+  max-width: 100px;
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite;
+}
+
+@keyframes bg {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: 10000px;
+  }
+}
+
 .about_icons {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  img {
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444;
+  }
 }
