@@ -1,53 +1,88 @@
-@import url(https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans:300,400|Lobster+Two|Raleway:300,400);
-html {
-  background: #ffffff; }
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,500,600|Playball|Comfortaa:300,400,700);
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
 
-body {
-  align-items: center;
-  display: block;
+.content {
+  text-align: justify;
+  color: #666666;
+  padding: 0 50px 0 0; }
+  .content span {
+    font-weight: 600;
+    color: #444444; }
+
+@media (max-width: 576px) {
+  .content {
+    padding: 0; } }
+.about_content > * {
+  margin: 40px; }
+
+.about_content_ico div {
+  margin-top: 20px; }
+
+.how_content > * {
+  margin: 40px; }
+
+.team_content {
+  margin-top: 60px; }
+  .team_content p {
+    margin-bottom: 0rem; }
+
+.title {
+  font-family: 'Playball', cursive;
+  font-size: 24px;
+  color: #555;
+  margin-bottom: 0; }
+
+.line {
+  height: 2px;
+  max-width: 100px;
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite; }
+
+.divider {
+  margin: 40px 0;
+  height: 1px;
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite; }
+
+@keyframes bg {
+  0% {
+    background-position-x: 0; }
+  100% {
+    background-position-x: 10000px; } }
+.about_icons {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 0; }
+  align-items: center; }
+  .about_icons img {
+    max-width: 80px;
+    max-height: 80px; }
+  .about_icons p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #444; }
 
-#header {
-  position: relative; }
-
-.brand {
-  position: relative;
-  height: 100vh;
+.how_yoga {
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center; }
-  .brand :first-child {
-    display: flex;
-    align-items: center; }
-  .brand_txt {
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start; }
-    .brand_txt .baseline {
-      display: flex;
-      flex-direction: column;
-      align-items: baseline; }
-    .brand_txt h1 {
-      font-family: "Comfortaa", cursive;
-      margin: 0;
-      line-height: 1.2;
-      font-size: 2.2rem; }
-    .brand_txt p {
-      font-family: "Open Sans", sans-serif; }
-  .brand_logo {
-    justify-content: center;
-    align-items: center; }
 
-.clients {
-  height: 100vh; }
-  .clients_column {
-    float: left;
-    width: 50%;
-    height: 100%; }
-    .clients_column_left {
-      height: 100%;
-      background-color: #F2F5FA; }
+.how_icons {
+  animation: App-logo-spin infinite 20s linear; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=index.css.map */
