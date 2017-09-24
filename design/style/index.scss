@@ -9,7 +9,7 @@ p {
 .content {
   text-align: justify;
   color: #666666;
-  padding: 0 50px;
+  padding: 0 50px 0 0;
   span {
     font-weight: 600;
     color: #444444;
@@ -17,7 +17,7 @@ p {
 }
 
 .about {
-  height: 100vh;
+  //height: 100vh;
 }
 
 .about_content > * {
@@ -46,6 +46,15 @@ p {
 .line {
   height: 2px;
   max-width: 100px;
+  color: transparent;
+  background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
+  background-size: 1000px 100%;
+  animation: bg 15s linear infinite;
+}
+
+.divider {
+  margin: 40px 0;
+  height: 1px;
   color: transparent;
   background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
   background-size: 1000px 100%;
