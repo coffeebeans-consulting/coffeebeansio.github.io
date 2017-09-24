@@ -16,6 +16,12 @@ p {
   }
 }
 
+@media (max-width: 576px) {
+  .content {
+    padding: 0;
+  }
+}
+
 .about {
   //height: 100vh;
 }

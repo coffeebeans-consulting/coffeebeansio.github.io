@@ -12,6 +12,9 @@ p {
     font-weight: 600;
     color: #444444; }
 
+@media (max-width: 576px) {
+  .content {
+    padding: 0; } }
 .about_content > * {
   margin-top: 40px; }
 

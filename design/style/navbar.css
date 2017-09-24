@@ -91,7 +91,8 @@ header.masthead {
   width: 100%;
   padding-top: 150px;
   padding-bottom: 100px;
-  color: black; }
+  color: black;
+  background: url("../assets/bg-pattern.png"), #FFFFFF; }
 
 header.masthead .header-content {
   max-width: 500px;
