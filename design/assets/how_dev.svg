@@ -4,8 +4,8 @@
     <title>Artboard Copy</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <path d="M50,43 C48.8954305,43 48,42.1045695 48,41 C48,39.8954305 48.8954305,39 50,39 C51.1045695,39 52,39.8954305 52,41 C52,42.1045695 51.1045695,43 50,43 Z M60,60 C60,58.8954305 60.8954305,58 62,58 C63.1045695,58 64,58.8954305 64,60 C64,61.1045695 63.1045695,62 62,62 C60.8954305,62 60,61.1045695 60,60 Z M41,60 C41,61.1045695 40.1045695,62 39,62 C37.8954305,62 37,61.1045695 37,60 C37,58.8954305 37.8954305,58 39,58 C40.1045695,58 41,58.8954305 41,60 Z" id="path-1"></path>
-        <filter x="-25.9%" y="-21.7%" width="151.9%" height="160.9%" filterUnits="objectBoundingBox" id="filter-2">
+        <path d="M50.4955245,46 C49.390955,46 48.4955245,45.1045695 48.4955245,44 C48.4955245,42.8954305 49.390955,42 50.4955245,42 C51.600094,42 52.4955245,42.8954305 52.4955245,44 C52.4955245,45.1045695 51.600094,46 50.4955245,46 Z M55.2586642,54.25 C55.8109489,53.2934148 57.0341298,52.9656644 57.990715,53.5179492 C58.9473003,54.0702339 59.2750506,55.2934148 58.7227658,56.25 C58.1704811,57.2065852 56.9473003,57.5343356 55.990715,56.9820508 C55.0341298,56.4297661 54.7063794,55.2065852 55.2586642,54.25 Z M45.7323848,54.25 C46.2846695,55.2065852 45.9569192,56.4297661 45.000334,56.9820508 C44.0437487,57.5343356 42.8205679,57.2065852 42.2682831,56.25 C41.7159984,55.2934148 42.0437487,54.0702339 43.000334,53.5179492 C43.9569192,52.9656644 45.1801,53.2934148 45.7323848,54.25 Z" id="path-1"></path>
+        <filter x="-41.2%" y="-32.8%" width="182.4%" height="191.8%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.288655698   0 0 0 0 0.56455189   0 0 0 0 0.886238694  0 0 0 0.497622283 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
@@ -18,9 +18,9 @@
                 <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                 <use fill="#4990E2" fill-rule="evenodd" xlink:href="#path-1"></use>
             </g>
-            <rect id="Rectangle" fill="#FFFFFF" transform="translate(44.120975, 49.717217) rotate(-60.000000) translate(-44.120975, -49.717217) " x="36.6209753" y="48.7172168" width="15" height="2" rx="1"></rect>
-            <rect id="Rectangle-Copy" fill="#FFFFFF" transform="translate(56.120975, 49.717217) scale(-1, 1) rotate(-60.000000) translate(-56.120975, -49.717217) " x="48.6209753" y="48.7172168" width="15" height="2" rx="1"></rect>
-            <rect id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(50.500000, 60.000000) scale(-1, 1) translate(-50.500000, -60.000000) " x="43" y="59" width="15" height="2" rx="1"></rect>
+            <rect id="Rectangle" fill="#FFFFFF" transform="translate(47.120975, 49.717217) rotate(-60.000000) translate(-47.120975, -49.717217) " x="44.6209753" y="48.7172168" width="5" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy" fill="#FFFFFF" transform="translate(54.120975, 49.717217) scale(-1, 1) rotate(-60.000000) translate(-54.120975, -49.717217) " x="51.6209753" y="48.7172168" width="5" height="2" rx="1"></rect>
+            <rect id="Rectangle-Copy-2" fill="#FFFFFF" transform="translate(50.500000, 55.000000) scale(-1, 1) translate(-50.500000, -55.000000) " x="48" y="54" width="5" height="2" rx="1"></rect>
         </g>
     </g>
 </svg>
