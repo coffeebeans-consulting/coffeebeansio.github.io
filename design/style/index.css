@@ -16,13 +16,13 @@ p {
   .content {
     padding: 0; } }
 .about_content > * {
-  margin-top: 40px; }
+  margin: 40px; }
 
 .about_content_ico div {
   margin-top: 20px; }
 
 .how_content > * {
-  margin-top: 40px; }
+  margin: 40px; }
 
 .team_content {
   margin-top: 60px; }
