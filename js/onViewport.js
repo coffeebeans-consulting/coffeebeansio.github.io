@@ -5,20 +5,22 @@ function onViewport(el, elClass, offset, callback) {
     var height;
     var top;
 
-    if(!offset) { var offset = 0; }
+    if (!offset) {
+        var offset = 0;
+    }
 
-    $(window).scroll(function() {
+    $(window).scroll(function () {
         didScroll = true;
     });
 
-    setInterval(function() {
+    setInterval(function () {
         if (didScroll) {
             didScroll = false;
             top = $(this).scrollTop();
 
-            $(el).each(function(i){
+            $(el).each(function (i) {
                 this_top = $(this).offset().top - offset;
-                height   = $(this).height();
+                height = $(this).height();
 
                 // Scrolled within current section
                 if (top >= this_top && !$(this).hasClass(elClass)) {
@@ -31,13 +33,13 @@ function onViewport(el, elClass, offset, callback) {
     }, 100);
 }
 
-onViewport(".line", "agent2", 1000, function() {
-    console.log("This is not a drill.")
-});
-
-onViewport(".title", "agent4", 1000, function() {
-    console.log("This is not a drill.")
-});
+// onViewport(".line", "agent2", 1000, function() {
+//     console.log("This is not a drill.")
+// });
+//
+// onViewport(".title", "agent4", 1000, function() {
+//     console.log("This is not a drill.")
+// });
 
 // onViewport(".text", "agent6", 1000, function() {
 //     console.log("This is not a drill.")
