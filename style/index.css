@@ -30,14 +30,14 @@ p {
     margin-bottom: 0rem; }
 
 .title {
-  font-family: 'Playball', cursive;
-  font-size: 24px;
-  color: #555;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  color: #222222;
   margin-bottom: 0; }
 
 .line {
   height: 2px;
-  max-width: 100px;
+  max-width: 120px;
   color: transparent;
   background: linear-gradient(to left, #1e5799, #2ce0bf, #76dd2c, #dba62b, #e02cbf, #1e5799);
   background-size: 1000px 100%;
